@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last Updated: January 8, 2026**
+**Last Updated: January 25, 2026**
 
 Glow AI ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application ("App").
 
@@ -16,7 +16,7 @@ When you use our App, we may collect the following personal information:
 - **Skincare Profile:** Skin type, skin sensitivity, main skincare goals, and skin concerns
 - **Contact Information:** Email address for support inquiries
 
-### User Images
+### User Images and Face Data
 
 Our App collects and processes facial images that you provide through:
 
@@ -32,6 +32,14 @@ Our App collects and processes facial images that you provide through:
 - **Local Storage:** Copies of your photos may be stored locally on your device for offline access
 
 **Important:** Your facial images are sent to third-party AI services (OpenAI) for analysis. By using the App, you consent to this transfer.
+
+**Why We Store Face Data:**
+
+We store your facial images so that we can display a history of images you have taken in the App, allowing you to view and track your skin health journey over time.
+
+**Face Data Retention Period:**
+
+Your facial images are stored for as long as your account exists. When you delete your account, all facial images and associated face data are permanently deleted from our servers. We do not retain face data indefinitely—it is only kept while you actively use the App and is removed upon account deletion.
 
 ### Usage Data
 
@@ -72,8 +80,11 @@ We use the information we collect to:
 
 We share your information with the following third-party services:
 
-### OpenAI
-Your facial images and skincare profile data are sent to OpenAI for AI-powered skin analysis and chat functionality. OpenAI processes this data according to their [Privacy Policy](https://openai.com/privacy).
+### OpenAI (Face Data Processing)
+
+**Why We Share Face Data:** Your facial images are sent to OpenAI to process your face for skin health analysis. OpenAI's AI models analyze your images to identify skin concerns, assess overall skin health, and generate personalized recommendations.
+
+**Third-Party Storage of Face Data:** OpenAI processes your facial images through their API but does not retain or store your face data after processing is complete. According to OpenAI's [API Data Usage Policy](https://openai.com/policies/api-data-usage-policies), data submitted through the API is not used to train their models and is not stored beyond the immediate processing period. For more information, see OpenAI's [Privacy Policy](https://openai.com/privacy).
 
 ### PostHog (Analytics)
 We use PostHog to collect analytics data about how you use the App. This includes events such as onboarding completion, feature usage, and user attributes. You can learn more about PostHog's privacy practices at [PostHog Privacy](https://posthog.com/privacy).
@@ -97,7 +108,7 @@ Our backend API is hosted on Vercel, which processes your image uploads and skin
 ## 5. Data Retention
 
 - We retain your personal information and skin analysis data for as long as your account is active
-- Facial images are retained to enable progress tracking and historical comparisons
+- **Facial images** are retained for as long as your account exists to display your image history and enable progress tracking. All face data is permanently deleted when you delete your account
 - Chat history is retained to provide context in future conversations
 - You may request deletion of your data at any time (see Section 7)
 
